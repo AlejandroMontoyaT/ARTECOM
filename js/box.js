@@ -9,6 +9,12 @@ function touchStart(event) {
   function touchEnd(event) {
     // Si el elemento tiene la clase `active`, redirecciona al enlace
     if (this.classList.contains("active")) {
+      // Retrasa la ejecución de la función `touchEnd()` durante 500 milisegundos
+    setTimeout(function() {
       window.location.href = this.querySelector("a").href;
-    }
+    }, 500);
   }
+}
+ // Vincula las funciones de evento al elemento
+    document.querySelector(".box").addEventListener("touchstart", touchStart);
+    document.querySelector(".box").addEventListener("touchend", touchEnd);
