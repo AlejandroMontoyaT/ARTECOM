@@ -1,0 +1,22 @@
+@font-face {
+    font-family: TR-909;
+    src: url(../Font/TR-909.ttf);
+}
+
+.d-item{
+    height: 400px;
+}
+
+.d-img{
+    height: 100%;
+    filter: brightness(0.6);
+}
+
+h1 {
+    font-size: 3vw;
+    font-family: 'TR-909', sans-serif;
+}
+
+p {
+    font-size: 1.5vw; /* Ajusta el tamaño de la fuente en relación con el ancho de la pantalla */
+}

@@ -1,0 +1,41 @@
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+a span {
+    margin-right: 10px;
+}
+
+.bi-facebook,
+.bi-youtube,
+.bi-instagram,
+.bi-tiktok,
+.bi-whatsapp {
+    font-size: 50px;
+    margin: 15px;
+}
+
+.bi-facebook {
+    color: #3b5998;
+}
+
+.bi-youtube {
+    color: #FF0000;
+
+}
+
+.bi-instagram {
+    color: #E1306C;
+}
+
+
+.bi-tiktok {
+    color: #000000;
+}
+
+.bi-whatsapp {
+    color: #25d366;
+}
