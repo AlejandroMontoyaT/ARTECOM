@@ -1,3 +1,11 @@
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 @font-face {
     font-family: TR-909;
     src: url(../Font/TR-909.ttf);
@@ -13,9 +21,13 @@
 }
 
 h1 {
-    font-size: 3vw;
+    font-size: 15vw;
     font-family: 'TR-909', sans-serif;
-    letter-spacing: 15px;
+    letter-spacing: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
 }
 
 p {
